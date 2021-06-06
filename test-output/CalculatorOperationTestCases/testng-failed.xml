@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CalculatorOperationTestCases]" guice-stage="DEVELOPMENT">
+  <parameter name="ResultId" value="Test5"/>
+  <test thread-count="5" name="Division(failed)">
+    <classes>
+      <class name="QualityKioskTraining.CalculatorOperation.Division">
+        <methods>
+          <include name="init"/>
+          <include name="divisionWithNegativeNumber"/>
+          <include name="tearDown"/>
+          <include name="reInitialised"/>
+        </methods>
+      </class> <!-- QualityKioskTraining.CalculatorOperation.Division -->
+    </classes>
+  </test> <!-- Division(failed) -->
+</suite> <!-- Failed suite [CalculatorOperationTestCases] -->

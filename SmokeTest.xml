@@ -1,0 +1,33 @@
+<suite name="SmokeTest">
+	<parameter name="RequestId" value="smokeTest" />
+	<groups>
+		<run>
+			<include name="SmokeTest" />
+		</run>
+	</groups>
+
+	<test name="Addition">
+		<classes>
+			<class name="QualityKioskTraining.CalculatorOperation.Addition" />
+		</classes>
+	</test>
+
+	<test name="Subtraction">
+		<classes>
+			<class name="QualityKioskTraining.CalculatorOperation.Subtraction" />
+		</classes>
+	</test>
+
+	<test name="Division">
+		<classes>
+			<class name="QualityKioskTraining.CalculatorOperation.Division" />
+		</classes>
+	</test>
+	
+     <test name="Multiplication">
+         <classes>
+             <class name="QualityKioskTraining.CalculatorOperation.Multiplication" />
+         </classes>
+      </test>
+      
+</suite>

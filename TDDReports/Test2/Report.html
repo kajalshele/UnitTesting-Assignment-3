@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">CalculatorOperationTestCases</th></tr>
+<tr><td><a href="#t0">Addition</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">144</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Subtraction</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">46</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Division</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">16</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Multiplication</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">16</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">222</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CalculatorOperationTestCases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Addition &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">QualityKioskTraining.CalculatorOperation.Addition</td><td><a href="#m0">additionWithNegativeNumber</a></td><td rowspan="1">1619351434407</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m1">additionWithPositiveNumber</a></td><td rowspan="1">1619351434437</td><td rowspan="1">2</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Subtraction &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">QualityKioskTraining.CalculatorOperation.Subtraction</td><td><a href="#m2">subtractionWithNegativeNumber</a></td><td rowspan="1">1619351434631</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m3">subtractionWithPositiveNumber</a></td><td rowspan="1">1619351434668</td><td rowspan="1">1</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Division &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">QualityKioskTraining.CalculatorOperation.Division</td><td><a href="#m4">divisionWithNegativeNumber</a></td><td rowspan="1">1619351434740</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m5">divisionWithPositiveNumber</a></td><td rowspan="1">1619351434748</td><td rowspan="1">2</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Multiplication &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">QualityKioskTraining.CalculatorOperation.Multiplication</td><td><a href="#m6">multiplicationWithNegativeNumber</a></td><td rowspan="1">1619351434821</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m7">multiplicationWithPositiveNumber</a></td><td rowspan="1">1619351434828</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Addition</h2><h3 id="m0">QualityKioskTraining.CalculatorOperation.Addition#additionWithNegativeNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">QualityKioskTraining.CalculatorOperation.Addition#additionWithPositiveNumber</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Subtraction</h2><h3 id="m2">QualityKioskTraining.CalculatorOperation.Subtraction#subtractionWithNegativeNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Subtraction not work with Negative Number expected [-2] but found [0]
+	at QualityKioskTraining.CalculatorOperation.Subtraction.subtractionWithNegativeNumber(Subtraction.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">QualityKioskTraining.CalculatorOperation.Subtraction#subtractionWithPositiveNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Subtraction not work with Positive Number expected [40] but found [0]
+	at QualityKioskTraining.CalculatorOperation.Subtraction.subtractionWithPositiveNumber(Subtraction.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Division</h2><h3 id="m4">QualityKioskTraining.CalculatorOperation.Division#divisionWithNegativeNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Division not work with Negative Number expected [-2] but found [0]
+	at QualityKioskTraining.CalculatorOperation.Division.divisionWithNegativeNumber(Division.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">QualityKioskTraining.CalculatorOperation.Division#divisionWithPositiveNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Division not work with Positive Number expected [9] but found [0]
+	at QualityKioskTraining.CalculatorOperation.Division.divisionWithPositiveNumber(Division.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Multiplication</h2><h3 id="m6">QualityKioskTraining.CalculatorOperation.Multiplication#multiplicationWithNegativeNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Multiplication not work with Negative Number expected [-8] but found [0]
+	at QualityKioskTraining.CalculatorOperation.Multiplication.multiplicationWithNegativeNumber(Multiplication.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">QualityKioskTraining.CalculatorOperation.Multiplication#multiplicationWithPositiveNumber</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Multiplication not work with Positive Number expected [25] but found [0]
+	at QualityKioskTraining.CalculatorOperation.Multiplication.multiplicationWithPositiveNumber(Multiplication.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-25T18:09:42 IST" name="CalculatorOperationTestCases" finished-at="2021-04-25T18:09:42 IST" duration-ms="245">
+    <groups>
+      <group name="SmokeTest">
+        <method signature="Addition.additionWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" name="additionWithPositiveNumber" class="QualityKioskTraining.CalculatorOperation.Addition"/>
+        <method signature="Subtraction.subtractionWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" name="subtractionWithPositiveNumber" class="QualityKioskTraining.CalculatorOperation.Subtraction"/>
+        <method signature="Division.divisionWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" name="divisionWithPositiveNumber" class="QualityKioskTraining.CalculatorOperation.Division"/>
+        <method signature="Multiplication.multiplicationWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" name="multiplicationWithPositiveNumber" class="QualityKioskTraining.CalculatorOperation.Multiplication"/>
+      </group> <!-- SmokeTest -->
+    </groups>
+    <test started-at="2021-04-25T18:09:42 IST" name="Addition" finished-at="2021-04-25T18:09:42 IST" duration-ms="69">
+      <class name="QualityKioskTraining.CalculatorOperation.Addition">
+        <test-method is-config="true" signature="init()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="init" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="reInitialise()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="reInitialise" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialise -->
+        <test-method signature="additionWithNegativeNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="additionWithNegativeNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionWithNegativeNumber -->
+        <test-method is-config="true" signature="reInitialise()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="reInitialise" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialise -->
+        <test-method signature="additionWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="additionWithPositiveNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionWithPositiveNumber -->
+        <test-method is-config="true" signature="close()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="close" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- QualityKioskTraining.CalculatorOperation.Addition -->
+    </test> <!-- Addition -->
+    <test started-at="2021-04-25T18:09:42 IST" name="Subtraction" finished-at="2021-04-25T18:09:42 IST" duration-ms="5">
+      <class name="QualityKioskTraining.CalculatorOperation.Subtraction">
+        <test-method is-config="true" signature="init()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" started-at="2021-04-25T18:09:42 IST" name="init" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="subtractionWithNegativeNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" started-at="2021-04-25T18:09:42 IST" name="subtractionWithNegativeNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionWithNegativeNumber -->
+        <test-method is-config="true" signature="reInitialised()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" started-at="2021-04-25T18:09:42 IST" name="reInitialised" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialised -->
+        <test-method is-config="true" signature="reInitialised()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" started-at="2021-04-25T18:09:42 IST" name="reInitialised" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialised -->
+        <test-method signature="subtractionWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" started-at="2021-04-25T18:09:42 IST" name="subtractionWithPositiveNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractionWithPositiveNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Subtraction@6b19b79]" started-at="2021-04-25T18:09:42 IST" name="tearDown" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QualityKioskTraining.CalculatorOperation.Subtraction -->
+    </test> <!-- Subtraction -->
+    <test started-at="2021-04-25T18:09:42 IST" name="Division" finished-at="2021-04-25T18:09:42 IST" duration-ms="9">
+      <class name="QualityKioskTraining.CalculatorOperation.Division">
+        <test-method is-config="true" signature="init()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" started-at="2021-04-25T18:09:42 IST" name="init" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="reInitialised()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" started-at="2021-04-25T18:09:42 IST" name="reInitialised" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialised -->
+        <test-method signature="divisionWithNegativeNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" started-at="2021-04-25T18:09:42 IST" name="divisionWithNegativeNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionWithNegativeNumber -->
+        <test-method is-config="true" signature="reInitialised()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" started-at="2021-04-25T18:09:42 IST" name="reInitialised" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialised -->
+        <test-method signature="divisionWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" started-at="2021-04-25T18:09:42 IST" name="divisionWithPositiveNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionWithPositiveNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Division@4fe767f3]" started-at="2021-04-25T18:09:42 IST" name="tearDown" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QualityKioskTraining.CalculatorOperation.Division -->
+    </test> <!-- Division -->
+    <test started-at="2021-04-25T18:09:42 IST" name="Multiplication" finished-at="2021-04-25T18:09:42 IST" duration-ms="11">
+      <class name="QualityKioskTraining.CalculatorOperation.Addition">
+        <test-method is-config="true" signature="createFolder(java.lang.String)[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="createFolder" finished-at="2021-04-25T18:09:42 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFolder -->
+        <test-method is-config="true" signature="copyFile(java.lang.String)[pri:0, instance:QualityKioskTraining.CalculatorOperation.Addition@6156496]" started-at="2021-04-25T18:09:42 IST" name="copyFile" finished-at="2021-04-25T18:09:42 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyFile -->
+      </class> <!-- QualityKioskTraining.CalculatorOperation.Addition -->
+      <class name="QualityKioskTraining.CalculatorOperation.Multiplication">
+        <test-method is-config="true" signature="init()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" started-at="2021-04-25T18:09:42 IST" name="init" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="multiplicationWithNegativeNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" started-at="2021-04-25T18:09:42 IST" name="multiplicationWithNegativeNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationWithNegativeNumber -->
+        <test-method is-config="true" signature="reInitialised()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" started-at="2021-04-25T18:09:42 IST" name="reInitialised" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialised -->
+        <test-method is-config="true" signature="reInitialised()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" started-at="2021-04-25T18:09:42 IST" name="reInitialised" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reInitialised -->
+        <test-method signature="multiplicationWithPositiveNumber()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" started-at="2021-04-25T18:09:42 IST" name="multiplicationWithPositiveNumber" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplicationWithPositiveNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QualityKioskTraining.CalculatorOperation.Multiplication@45018215]" started-at="2021-04-25T18:09:42 IST" name="tearDown" finished-at="2021-04-25T18:09:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QualityKioskTraining.CalculatorOperation.Multiplication -->
+    </test> <!-- Multiplication -->
+  </suite> <!-- CalculatorOperationTestCases -->
+</testng-results>
